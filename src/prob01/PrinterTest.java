@@ -11,6 +11,8 @@ public class PrinterTest {
 		printer.println(true);
 		printer.println( 5.7 );
 		printer.println( "홍길동" );
+		
+		printer.println(10, "이름", 55, true);
 
 
 	}
